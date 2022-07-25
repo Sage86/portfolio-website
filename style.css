@@ -1,0 +1,131 @@
+<head>
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+/*
+Colors used:
+Primary Color (White): #FFFFFF;
+Secondary Color (Black): #000000;
+Tertiary Color (Lobster): #FF603E;
+Fourth Colour (Mustard): #F49F1C;
+Fifth Colour (Sage): #A8C1B7;
+Sixth Colour (Darker Sage) #7EA997;
+Seventh Colour (Dark Sage) #54977B;
+*/
+
+
+a {
+  color: #7EA997;
+  text-decoration: none; /* No underlining */
+}
+a:hover {
+  color: #54977B;
+  text-decoration: underline;; /* Underlining when hovering over a link */
+}
+
+
+a:visited { /* visited link */
+  color: #A8C1B7;
+}
+a:active { /* selected link */
+  color: #54977B;
+}
+
+
+a:hover,
+a:focus {
+  color: #7EA997;
+  text-decoration: underline;
+}
+
+
+body {
+  font-family: 'Raleway', sans-serif;
+}
+body {
+background-color: #ffffff;
+font-family: 'Raleway', sans-serif;
+font-size: 16px; /* Sets the font size to 16px */
+font-weight: 300; /* Sets the font weight to 300 */
+line-height: 1.6; /* Sets the line-height to 1.6 * the font-size */
+color: #4a4a4a;
+}
+
+h1, h2, h3, h4 {
+line-height: 1.4;
+}
+h1 {
+font-size: 2.75em;
+font-weight: 700;
+}
+
+h2 {
+font-size: 2.25em;
+font-weight: 700;
+}
+
+h3 {
+font-size: 1.75em;
+font-weight: 400;
+}
+h4 {
+font-size: 1.35em;
+font-weight: 400;
+}
+
+img {
+  width: 100%;
+}
+
+
+.button.contact {
+  background-color: transparent;
+  color: #54977B;
+  text-transform: uppercase;
+  border: 2px solid #54977B;
+}
+.button.contact:hover {
+  background-color: #7EA997;
+  color: #ffffff;
+}
+
+
+
+.button:hover {
+  opacity: 0.8; /* Reduces the opacity of the button to 80% */
+  text-decoration: none;
+}
+
+.button:active {
+  opacity: 0.8; /* Reduces the opacity of the button to 80% */
+  text-decoration: none;
+}
+
+a:hover,
+a:focus {
+  color: #000000;
+  text-decoration: underline;
+}
+
+
+
+a:visited { /* visited link */
+  color: #000000;
+}
+a:active { /* selected link */
+  color: #994c30;
+}
+
+
+.button {
+  display: inline-block; /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
+  background-color: #7EA997;
+  color: #ffffff; /* needed to override the default link color */
+  font-weight: 400;
+  padding: 10px;
+  border-radius: 3px;
+  border-bottom: 2px solid #54977B; /* width of the border, type, color */
+  transition: 0.2s opacity;
+}
