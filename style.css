@@ -16,6 +16,18 @@ Seventh Colour (Dark Sage) #54977B;
 */
 
 
+header {
+  background-color: #A8C1B7;
+}
+
+
+body {
+background-color: #DBF9FC;
+}
+
+
+
+
 a {
   color: #7EA997;
   text-decoration: none; /* No underlining */
