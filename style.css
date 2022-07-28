@@ -1,6 +1,6 @@
 <head>
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
-  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
@@ -15,19 +15,71 @@ Sixth Colour (Darker Sage) #7EA997;
 Seventh Colour (Dark Sage) #54977B;
 */
 
+/* LAYOUT STYLING */
+/* Layout styling */
 
-header {
-  background-color: #A8C1B7;
+
+.container {
+padding: 0 15px;
 }
 
 
+/* BODY */
 body {
 background-color: #DBF9FC;
 }
 
+header {
+  background-color: #A8C1B7;
+  padding: 10px;
+  margin: 10px;
+  padding-top: 10px;
+  padding-right: 5px;
+  padding-bottom: 15px;
+  padding-left: 5px;
+  border-bottom: 3px solid #4a4a4a;
+  }
+
+  header {
+    background-color: #A8C1B7;
+    text-align: center;
+    padding: 10px 0;
+  }
+
+  header {
+    position: relative;
+  }
+
+  /* Navigation bar */
+  nav > ul > li > a:listed {
+    list-style-type: none;
+    display: inline-block;
+    padding: 0 15px;
+    width: 100%
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #000000
+  }
 
 
 
+/* ADD MARGIN AT TOP AND BOTTOM */
+.row {
+  margin: 25px 0; /* 25px top and bottom, 0 left and right */
+}
+
+#work .row { padding-bottom: 25px; border-bottom: 1px solid #4a4a4a; }
+
+#about .row { padding-bottom: 25px; border-bottom: 1px solid #4a4a4a; }
+
+.logo {
+  max-width: 250px;
+  text-align: center;
+}
+
+
+
+  /* BUTTONS */
 a {
   color: #7EA997;
   text-decoration: none; /* No underlining */
@@ -37,14 +89,13 @@ a:hover {
   text-decoration: underline;; /* Underlining when hovering over a link */
 }
 
-
 a:visited { /* visited link */
   color: #A8C1B7;
 }
+
 a:active { /* selected link */
   color: #54977B;
 }
-
 
 a:hover,
 a:focus {
@@ -53,9 +104,12 @@ a:focus {
 }
 
 
+
+/* BODY */
 body {
   font-family: 'Raleway', sans-serif;
 }
+
 body {
 background-color: #ffffff;
 font-family: 'Raleway', sans-serif;
@@ -65,9 +119,13 @@ line-height: 1.6; /* Sets the line-height to 1.6 * the font-size */
 color: #4a4a4a;
 }
 
+
+
+/* HEADER FONTS */
 h1, h2, h3, h4 {
 line-height: 1.4;
 }
+
 h1 {
 font-size: 2.75em;
 font-weight: 700;
@@ -82,19 +140,44 @@ h3 {
 font-size: 1.75em;
 font-weight: 400;
 }
+
 h4 {
 font-size: 1.35em;
 font-weight: 400;
 }
 
+
+/* IMAGES */
 img {
   width: 100%;
 }
 
 
+/* TEXT ALIGNMENT */
+#hero {
+  background-color: #A8C1B7;Í
+  padding: 20px 0;
+  display: inline-block;
+  width: 100%;
+}
+
+#hero h1 {
+  text-align: center; /* Centers text */
+  margin: 0;
+  padding: 0.67em 0;
+}
+
+#hero h2 {
+  text-align: center; /* Centers text */
+}
+
+
+
+
+/* BUTTON STATES */
 .button.contact {
   background-color: transparent;
-  color: #54977B;
+  color: #000000;
   text-transform: uppercase;
   border: 2px solid #54977B;
 }
@@ -102,8 +185,6 @@ img {
   background-color: #7EA997;
   color: #ffffff;
 }
-
-
 
 .button:hover {
   opacity: 0.8; /* Reduces the opacity of the button to 80% */
@@ -121,14 +202,26 @@ a:focus {
   text-decoration: underline;
 }
 
-
-
 a:visited { /* visited link */
   color: #000000;
 }
 a:active { /* selected link */
   color: #994c30;
 }
+
+
+footer {
+  background-color: #A8C1B7;
+  padding: 10px;
+  margin: 10px;
+  padding-top: 10px;
+  padding-right: 5px;
+  padding-bottom: 15px;
+  padding-left: 5px;
+  border-bottom: 3px solid #4a4a4a;
+  }
+
+
 
 
 .button {
