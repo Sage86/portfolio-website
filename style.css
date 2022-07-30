@@ -1,8 +1,4 @@
-<head>
-  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
-  <link rel="stylesheet" type="text/css" href="style.css">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-</head>
+
 
 /*
 Colors used:
@@ -16,8 +12,34 @@ Seventh Colour (Dark Sage) #54977B;
 */
 
 /* LAYOUT STYLING */
-/* Layout styling */
 
+/* HEADER */
+header {
+  background-color: #A8C1B7;
+  padding: 10px;
+  margin: 10px;
+  padding-top: 10px;
+  padding-right: 5px;
+  padding-bottom: 10px;
+  padding-left: 5px;
+  }
+
+header {
+    position: relative;
+}
+
+/* Navigation bar */
+ul.no-bullets {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+
+
+div.a {
+  text-align: center;
+}
 
 .container {
 padding: 0 15px;
@@ -26,10 +48,27 @@ padding: 0 15px;
 
 /* BODY */
 body {
-background-color: #DBF9FC;
+  font-family: 'Raleway', sans-serif;
 }
 
-header {
+body {
+background-color: #ffffff;
+font-family: 'Raleway', sans-serif;
+font-size: 16px; /* Sets the font size to 16px */
+font-weight: 300; /* Sets the font weight to 300 */
+line-height: 1.6; /* Sets the line-height to 1.6 * the font-size */
+color: #4a4a4a;
+}
+
+p {
+color: #000000;
+}
+
+h4 {
+ext-align: left;
+}
+
+.logo {
   background-color: #A8C1B7;
   padding: 10px;
   margin: 10px;
@@ -40,27 +79,10 @@ header {
   border-bottom: 3px solid #4a4a4a;
   }
 
-  header {
-    background-color: #A8C1B7;
+.logo {
+    max-width: 250px;
     text-align: center;
-    padding: 10px 0;
-  }
-
-  header {
-    position: relative;
-  }
-
-  /* Navigation bar */
-  nav > ul > li > a:listed {
-    list-style-type: none;
-    display: inline-block;
-    padding: 0 15px;
-    width: 100%
-    text-transform: uppercase;
-    font-weight: 700;
-    color: #000000
-  }
-
+    }
 
 
 /* ADD MARGIN AT TOP AND BOTTOM */
@@ -69,14 +91,7 @@ header {
 }
 
 #work .row { padding-bottom: 25px; border-bottom: 1px solid #4a4a4a; }
-
 #about .row { padding-bottom: 25px; border-bottom: 1px solid #4a4a4a; }
-
-.logo {
-  max-width: 250px;
-  text-align: center;
-}
-
 
 
   /* BUTTONS */
@@ -104,23 +119,6 @@ a:focus {
 }
 
 
-
-/* BODY */
-body {
-  font-family: 'Raleway', sans-serif;
-}
-
-body {
-background-color: #ffffff;
-font-family: 'Raleway', sans-serif;
-font-size: 16px; /* Sets the font size to 16px */
-font-weight: 300; /* Sets the font weight to 300 */
-line-height: 1.6; /* Sets the line-height to 1.6 * the font-size */
-color: #4a4a4a;
-}
-
-
-
 /* HEADER FONTS */
 h1, h2, h3, h4 {
 line-height: 1.4;
@@ -129,16 +127,19 @@ line-height: 1.4;
 h1 {
 font-size: 2.75em;
 font-weight: 700;
+font-size: 19px;
 }
 
 h2 {
 font-size: 2.25em;
 font-weight: 700;
+font-size: 18px;
 }
 
 h3 {
-font-size: 1.75em;
-font-weight: 400;
+font-size: 2.75em;
+font-weight: 700;
+font-size: 16px;
 }
 
 h4 {
@@ -154,6 +155,97 @@ img {
 
 
 /* TEXT ALIGNMENT */
+#icon {
+  text-align: center;
+}
+
+#getintouch {
+  text-align: center;
+}
+
+#Perennial {
+  text-align: left;
+}
+
+#Appetite {
+  text-align: left;
+}
+
+#mywork {
+  text-align: center;
+}
+
+#hero {
+  text-align: center;
+}
+
+#copyright {
+  text-align: center;
+}
+
+#mystory {
+  text-align: center;
+}
+
+#mystory-p {
+  text-align: justify;
+}
+
+#about {
+  text-align: center;
+}
+
+#Title-Appetite {
+  text-align: center;
+}
+
+#Title-Perennial {
+  text-align: center;
+}
+
+#casestudy-Perennial {
+  text-align: left;
+}
+
+
+
+#casestudy-Appetite {
+  text-align: left;
+}
+
+#Research {
+  text-align: justify;
+}
+
+#Ideation {
+  text-align: left;
+}
+
+#Ideation-p {
+  text-align: justify;
+}
+
+#Problem-Goal {
+  text-align: left;
+}
+
+#Conclusion {
+  text-align: left;
+}
+
+
+#StyleGuide {
+  text-align: center;
+}
+
+#Typography {
+  text-align: left;
+}
+
+#ColourPalette {
+  text-align: left;
+}
+
 #hero {
   background-color: #A8C1B7;Í
   padding: 20px 0;
@@ -171,16 +263,71 @@ img {
   text-align: center; /* Centers text */
 }
 
+#relevantskills {
+text-align: left;
+}
 
+.getintouch {
+text-align: center; /* Centers text */
+}
+
+.hero {
+text-align: center; /* Centers text */
+}
+
+
+#footer p {
+  text-align: center; /* Centers text */
+}
+
+
+
+
+/* FOOTER - SOCIAL MEDIA */
+
+footer {
+  background-color: #A8C1B7;
+  padding: 10px;
+  margin: 10px;
+  padding-top: 10px;
+  padding-right: 5px;
+  padding-bottom: 15px;
+  padding-left: 5px;
+  }
+
+.icon {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    overflow: hidden;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+
+#ul {
+  list-style:none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
 
 
 /* BUTTON STATES */
 .button.contact {
   background-color: transparent;
   color: #000000;
-  text-transform: uppercase;
+  text-transform: supportive;
   border: 2px solid #54977B;
 }
+
 .button.contact:hover {
   background-color: #7EA997;
   color: #ffffff;
@@ -208,18 +355,6 @@ a:visited { /* visited link */
 a:active { /* selected link */
   color: #994c30;
 }
-
-
-footer {
-  background-color: #A8C1B7;
-  padding: 10px;
-  margin: 10px;
-  padding-top: 10px;
-  padding-right: 5px;
-  padding-bottom: 15px;
-  padding-left: 5px;
-  border-bottom: 3px solid #4a4a4a;
-  }
 
 
 
