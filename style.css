@@ -14,8 +14,10 @@ Seventh Colour (Dark Sage) #54977B;
 /* LAYOUT STYLING */
 
 /* HEADER */
+
 header {
   background-color: #A8C1B7;
+  text-align: right;
   padding: 10px;
   margin: 10px;
   padding-top: 10px;
@@ -24,9 +26,18 @@ header {
   padding-left: 5px;
   }
 
-header {
-    position: relative;
+header li {
+  display: inline;
+  padding-left: 45px;
+
 }
+
+#header-hero {
+  text-align: left;
+}
+
+
+
 
 /* Navigation bar */
 ul.no-bullets {
@@ -207,8 +218,6 @@ img {
   text-align: left;
 }
 
-
-
 #casestudy-Appetite {
   text-align: left;
 }
@@ -232,7 +241,6 @@ img {
 #Conclusion {
   text-align: left;
 }
-
 
 #StyleGuide {
   text-align: center;
@@ -304,8 +312,6 @@ footer {
     padding-bottom: 10px;
 }
 
-
-
 #ul {
   list-style:none;
   display: flex;
@@ -356,9 +362,6 @@ a:active { /* selected link */
   color: #994c30;
 }
 
-
-
-
 .button {
   display: inline-block; /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
   background-color: #7EA997;
@@ -368,4 +371,21 @@ a:active { /* selected link */
   border-radius: 3px;
   border-bottom: 2px solid #54977B; /* width of the border, type, color */
   transition: 0.2s opacity;
+}
+
+
+/* ==============================
+Medium devices (640px and larger)
+================================= */
+@media only screen and (min-width: 640px) {
+}
+/* ==============================
+Large devices (1024px or larger)
+================================= */
+@media only screen and (min-width: 1024px) {
+}
+/* ==============================
+X-large devices (1440px or larger)
+================================= */
+@media only screen and (min-width: 1440px) {
 }
